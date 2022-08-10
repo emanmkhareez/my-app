@@ -1,6 +1,6 @@
 import { act } from 'react-dom/test-utils';
 import { createStore } from 'redux'
-const initstate={counter:0,showtoggle:false};
+const initstate={counter:0,showtoggle:true};
 const counterReducer = (state = initstate, action) => {
 
     if (action.type === "decrease")
